@@ -1,0 +1,156 @@
+body{
+background:#a6a8f4;
+margin-top:5px;
+font-size:12px;
+font-family:Arial;
+line-height:25px;
+
+}
+
+#centerbox{
+margin-top:30px;
+margin-left:5%;
+height:300px;
+width:500px;
+background:green;
+background:green;
+color:#fff;
+padding-left:50px;
+padding-top:20px;
+padding-right:50px;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+-moz-box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 3px;
+-webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 3px;
+box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 3px;
+border:10px solid #fff;
+overflow:auto;
+float:left;
+}
+
+#chat_userlist{
+float:left;
+margin-top:30px;
+margin-left:25px;
+background:green;
+color:#fff;
+padding-left:10px;
+padding-top:10px;
+padding-right:20px;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+-moz-box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 3px;
+-webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 3px;
+box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 3px;
+border:1px solid #fff;
+overflow:auto;
+height:330px;
+}
+#form{
+margin-left:5%;
+margin-top:20px;
+}
+
+#form input[type="text"]{
+width:625px;
+height:25px;
+font-size:12px;
+border:1px solid #ccc;
+margin-right:20px;
+margin-bottom:15px;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+}
+
+#form input[type="submit"]{
+width:100px;
+height:25px;
+font-size:12px;
+border:1px solid #ccc;
+margin-bottom:15px;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+background-color: #E6E6E6;
+background-repeat: no-repeat;
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), color-stop(25%, white), to(#E6E6E6));
+background-image: -webkit-linear-gradient(white, white 25%, #E6E6E6);
+background-image: -moz-linear-gradient(top, white, white 25%, #E6E6E6);
+background-image: -ms-linear-gradient(white, white 25%, #E6E6E6);
+background-image: -o-linear-gradient(white, white 25%, #E6E6E6);
+background-image: linear-gradient(white, white 25%, #E6E6E6);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='#E6E6E6', GradientType=0);
+}
+#isi{
+border-bottom:1px solid #999;
+margin-top:5px;
+}
+
+.isi_username{
+font-size:12px;
+color:#EC8E31;
+}
+.isi_time{
+float:left;
+font-size:10px;
+margin-right:10px;
+color:yellow;
+}
+.isi_isi{
+float:left;
+font-size:12px;
+color:white;
+}
+.isi_usronline {
+font-size:12px;
+color:#EC8E31;
+}
+
+#timecontainer{
+display:none;
+visibility:hidden;
+}
+
+#navbar{
+height:25px;
+background:#000;
+color:#fea;
+font-size:14px;
+text-align:right;
+padding-right:40px;
+}
+
+#form-login input[type="text"]{
+width:500px;
+height:40px;
+font-size:30px;
+border:1px solid #ccc;
+margin-right:20px;
+margin-bottom:10px;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+}
+
+#form-login input[type="submit"]{
+width:100px;
+height:40px;
+margin-bottom:10px;
+font-size:30px;
+border:1px solid #ccc;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+background-color: #E6E6E6;
+background-repeat: no-repeat;
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), color-stop(25%, white), to(#E6E6E6));
+background-image: -webkit-linear-gradient(white, white 25%, #E6E6E6);
+background-image: -moz-linear-gradient(top, white, white 25%, #E6E6E6);
+background-image: -ms-linear-gradient(white, white 25%, #E6E6E6);
+background-image: -o-linear-gradient(white, white 25%, #E6E6E6);
+background-image: linear-gradient(white, white 25%, #E6E6E6);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='#E6E6E6', GradientType=0);
+}
